@@ -1,6 +1,6 @@
 # jspdf_vue
 
-> A Vue.js project
+> Testing Vue.js and jsPDF features
 
 ## Build Setup
 
