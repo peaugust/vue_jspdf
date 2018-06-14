@@ -23,8 +23,6 @@ export default {
       console.log(vm.text);
       var doc = new jsPDF();
       doc.text(vm.text, 10, 10);
-      doc.addFont("Arial", "Arial", "normal");
-      doc.setFont("Arial");
       pdfobject.embed( doc.output('datauristring'), "#test");
 
     }
